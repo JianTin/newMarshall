@@ -1,7 +1,12 @@
-import Work from '../components/work/work.vue'
+import MyDetail from '../pages/Detail/myDetail.vue'
+import Activity from '../pages/Activities/Activities.vue'
 export default [
   {
-    path: '/work',
-    component: Work
+    path: '/myDetails',
+    component: MyDetail
+  },
+  {
+    path: '/activity',
+    component: Activity
   }
 ]
