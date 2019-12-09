@@ -1,13 +1,15 @@
-//引入vue
 import Vue from 'vue'
-//引入App
-import App from './App.vue'
+import App from './App'
+import router from './router'
+import 'minireset.css'
+Vue.config.productionTip = false
 
+/* eslint-disable no-new */
 new Vue({
   el: '#app',
   components: {
     App
   },
   template: '<App/>',
-
+  router
 })
